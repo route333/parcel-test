@@ -1,0 +1,28 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-test",
+    "pre-start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/route333/parcel-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/route333/parcel-test/issues"
+  },
+  "homepage": "https://github.com/route333/parcel-test#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
+}
